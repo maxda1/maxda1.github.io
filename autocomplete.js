@@ -11,7 +11,7 @@ const inp = document.getElementById("inp");
 
 inp.onkeyup = function() {
     let result = [];
-    let i = inp.value;
+    let i = inp.value.toLowerCase();
     if (i.length) {
         result = Object.keys(names).filter((word) => {return word.toLowerCase().includes(i)});
     }
