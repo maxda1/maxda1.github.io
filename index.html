@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        body {
+          background-image: url('background.png');
+          background-size: 25%;
+        }
+    </style>
     <body>
         <div>
             <input id="inp" type="text" placeholder="Search Name" autocomplete="off">
-            <button id="sear" onclick="getTable()">Search</button>
+            <button id="sear" onclick="getTable()"><img src="search.png" alt="search icon" style="width: 1em;"></button>
         </div>
         <div class="suggestions">
         </div>
